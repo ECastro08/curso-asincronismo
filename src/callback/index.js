@@ -23,3 +23,16 @@ function sum(num1, num2) {
   }
   
   setTimeout(gretting, 2000, 'Oscar');
+
+
+  // Reto platzi
+
+function execCallback(callback) {
+    return console.log((callback, 'funcion callback'));
+  }
+  
+  setTimeout(execCallback, 2000, 'Hecho');
+
+//
+
+
