@@ -5,7 +5,7 @@ async function fetchData(urlApi) {          // funcion async
   const response = await fetch(urlApi);     // llamamos la api
   const data =  await response.json();      // transformamos el archivo a .json
   return data;
-}
+}// comentario ensayo
 
 const anotherFunction = async (urlApi) => {     // construimos la funcion para utilizar try y catch
   try {
